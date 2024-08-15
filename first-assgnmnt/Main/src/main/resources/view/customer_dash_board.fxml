@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.customerDashBoardFormController">
+   <children>
+      <ImageView fitHeight="337.0" fitWidth="600.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/download%20(22).jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="144.0" fitWidth="165.0" layoutX="347.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/search.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="144.0" fitWidth="154.0" layoutX="88.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/add.jpeg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnAdd" layoutX="74.0" layoutY="367.0" onAction="#btnAddOnClick" prefHeight="40.0" prefWidth="170.0" text="Add Customer" textFill="#432818">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnSearch" layoutX="334.0" layoutY="367.0" onAction="#btnSearchOnClick" prefHeight="40.0" prefWidth="170.0" text="Search Customer" textFill="#432818">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

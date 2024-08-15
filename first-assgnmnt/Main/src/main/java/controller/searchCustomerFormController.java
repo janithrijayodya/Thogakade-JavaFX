@@ -109,7 +109,7 @@ public class searchCustomerFormController {
     @FXML
     public void btnSearch(ActionEvent actionEvent) {
         // to clear the error msg before search another id
-        txtShowResult.setText(null);
+        txtShowResult.setText("");
 
         String inputStringId = txtSearch.getText();
         for(Customer cus: customerList) {
